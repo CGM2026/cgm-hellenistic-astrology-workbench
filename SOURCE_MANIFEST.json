@@ -1,0 +1,1281 @@
+{
+  "schema": "cgm-source-manifest/1",
+  "build_id": "20261006-190548-7279cdaf",
+  "source_policy": "current project skills, selected standalone tests and release-metadata; no installed copies or old archives",
+  "files": [
+    {
+      "file": "skills/cgm-astrology-workbench/agents/openai.yaml",
+      "source": "skills/cgm-astrology-workbench/agents/openai.yaml",
+      "sha256": "f6cf1f569668e38ed02ad7ecbb1918ecb33792de7ec3caf121439b57773702e7",
+      "bytes": 302,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-astrology-workbench/references/cross-project.md",
+      "source": "skills/cgm-astrology-workbench/references/cross-project.md",
+      "sha256": "66d527811cd65c557c9419a5199249c4a2e393209ae010651050977eeb91a525",
+      "bytes": 2094,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-astrology-workbench/SKILL.md",
+      "source": "skills/cgm-astrology-workbench/SKILL.md",
+      "sha256": "badca5961713844aeaaf82fe95079799f8362d23149f31af5f60dbc8a7d81892",
+      "bytes": 8016,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/agents/openai.yaml",
+      "source": "skills/cgm-calculate-astrology-chart/agents/openai.yaml",
+      "sha256": "e694ba977a865223ebf83800e073ef7097b519f295ceacce56464786be5d402c",
+      "bytes": 310,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/references/chart-facts-schema.md",
+      "source": "skills/cgm-calculate-astrology-chart/references/chart-facts-schema.md",
+      "sha256": "143be86346626a37f71eac4a35f236bcaf426755c35a97c179d5a86066f6c776",
+      "bytes": 3586,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/references/cross-project.md",
+      "source": "skills/cgm-calculate-astrology-chart/references/cross-project.md",
+      "sha256": "66d527811cd65c557c9419a5199249c4a2e393209ae010651050977eeb91a525",
+      "bytes": 2094,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/references/first-run-setup.md",
+      "source": "skills/cgm-calculate-astrology-chart/references/first-run-setup.md",
+      "sha256": "50d6a13d8a6ca57f005db0c22d7b949a1a0d06dbfd17298546ee74218469b070",
+      "bytes": 4434,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/references/input-contract.md",
+      "source": "skills/cgm-calculate-astrology-chart/references/input-contract.md",
+      "sha256": "3a6340944c7ab5191fe3547a324f75afcfb5f0a5b5918dcf63c6e0db8e76b495",
+      "bytes": 2797,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/references/time-lords-v1.md",
+      "source": "skills/cgm-calculate-astrology-chart/references/time-lords-v1.md",
+      "sha256": "46178484199160d8d3ced47159bd2afc686da5e9055af3e91025367d97a78ec5",
+      "bytes": 2792,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/asteroid_worker.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/asteroid_worker.py",
+      "sha256": "b5ea417bdae6825bb68a9520feed5109cd1fe06a387e0204403182f4931a9258",
+      "bytes": 761,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/bootstrap_runtime.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/bootstrap_runtime.py",
+      "sha256": "87adec9d87cee30e3b3de1d426106b912dd48bba43c9a773bbcc3187b86ef592",
+      "bytes": 4933,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/calculate_chart.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/calculate_chart.py",
+      "sha256": "ed219b3d2b71b10ecbbf0ce61d2b47cb4dfad02584b2c4b4695ea7e35a9ac08f",
+      "bytes": 26397,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/calculate_decennials.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/calculate_decennials.py",
+      "sha256": "1acefdab6506e95c7333885960b2320b9d8fea2b5bbe374eab3c9b369f40a2cd",
+      "bytes": 7915,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/calculate_display_snapshots.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/calculate_display_snapshots.py",
+      "sha256": "311bf4e842a9c6f3385973c27451dc1876f649bfc8719fad0a769b0f4038d546",
+      "bytes": 9941,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/calculate_return_query.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/calculate_return_query.py",
+      "sha256": "952cf2d98e137d733ae6360e334f65e36b2a2e226c3269e3ec7a410a239d5546",
+      "bytes": 5506,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/calculate_time_lords.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/calculate_time_lords.py",
+      "sha256": "cb0cacc59486ae35702614f9b829a63ca1ab1ce8f7d49f81d7a1c2062bef6587",
+      "bytes": 5004,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/calculate_transit_search.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/calculate_transit_search.py",
+      "sha256": "1cf07f8391626add4479bf61a53627075e7449c44e72544c3d2e798609799b86",
+      "bytes": 11025,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/civil_age.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/civil_age.py",
+      "sha256": "7342a1cba42c9253da58bbf45aad9ddd6abb932f7aed1ab53a1afb59e8775468",
+      "bytes": 1346,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/configure_settings.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/configure_settings.py",
+      "sha256": "8b5dc7fcbe7baf730e8477047629bfbb0900777ac3597a9bc06a339368f7051a",
+      "bytes": 2397,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/local_installation.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/local_installation.py",
+      "sha256": "d8dae2de602d169a9a612f888ed8a7f3f0361dba8716993ae101fd18704a7d15",
+      "bytes": 2627,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/method_settings.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/method_settings.py",
+      "sha256": "3180c6c827e4fed73897698c7b2da9c7ab8dc4761ffaca72e646e2007ab37fb7",
+      "bytes": 2959,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/requirements.txt",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/requirements.txt",
+      "sha256": "73f359badf46fefe1d72a2f40a3e8286ac89a0c1bf7e2efd7b237dc1ed37ea86",
+      "bytes": 37,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/self_test.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/self_test.py",
+      "sha256": "d46cc6aafd52fc5e19d05f89154b8d313b57c01b4f722bb57b7d543f809572ed",
+      "bytes": 3459,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/scripts/validate_chart_output.py",
+      "source": "skills/cgm-calculate-astrology-chart/scripts/validate_chart_output.py",
+      "sha256": "7ae3b1aa7d7bd9f9e3ca76c9ebf3ed35cf85e2bdc9f2482bad782dd6dbcf1437",
+      "bytes": 27627,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/SKILL.md",
+      "source": "skills/cgm-calculate-astrology-chart/SKILL.md",
+      "sha256": "e0fc4580965dfc604e969d34abf017156867fe7ffd9347a4b50e2558064e66b7",
+      "bytes": 8979,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/tests/test_release_boundaries.py",
+      "source": "skills/cgm-calculate-astrology-chart/tests/test_release_boundaries.py",
+      "sha256": "8176ed0c4182f02ff0d69913679f82c04fbba9d7ba35dcd1b338e54a6505a4d5",
+      "bytes": 5757,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/tests/test_time_and_point_boundaries.py",
+      "source": "skills/cgm-calculate-astrology-chart/tests/test_time_and_point_boundaries.py",
+      "sha256": "a3529d09414631e8a12eda0ef6f4a1048ea882744789b8de767d29fd8e823fbf",
+      "bytes": 12642,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-calculate-astrology-chart/tests/test_validate_chart_output.py",
+      "source": "skills/cgm-calculate-astrology-chart/tests/test_validate_chart_output.py",
+      "sha256": "ad0532cea2e1353e91c9f98c2a6976c38b6b30b328d94968942abe2c7fe9f3c5",
+      "bytes": 6405,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/agents/openai.yaml",
+      "source": "skills/cgm-hellenistic-chart-visualization/agents/openai.yaml",
+      "sha256": "5f6235e6ae485e5c8ae3c6bcc825f243c29f9cbac8876a058b5973b99f7d453c",
+      "bytes": 284,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/chart-geometry.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/chart-geometry.js",
+      "sha256": "03b88d01053b59853646d81aff05ef59cd5460dfd1624d17475d39bb8ea0b630",
+      "bytes": 10573,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/chart-view.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/chart-view.js",
+      "sha256": "1cea220f7140113472d4711d5d985bd7d9598b9c47712ae53557ba3a1d633a0b",
+      "bytes": 3486,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/chart-wheel.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/chart-wheel.js",
+      "sha256": "20f5a1801d167e14f5731baaa2eef527f1d0758d8af4bf8b5e79794c60c2053e",
+      "bytes": 18156,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/page.css",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/page.css",
+      "sha256": "4a1ce0a06e0f0422d7a3e13b89786139dabf0c8650141c337095c59c1430a55e",
+      "bytes": 2872,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/page.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/page.js",
+      "sha256": "e5f7d39059bad6ae20d013a5e835647dfc1e4bfea0c0fef997c81d5b702bf2f9",
+      "bytes": 2660,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/portable-reader.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/portable-reader.js",
+      "sha256": "28d3cead7f3a438b807d56587ac53bb47a02a3431e96d14382a32fdf613d361c",
+      "bytes": 5451,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/wheel.css",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/wheel.css",
+      "sha256": "01798ec34c74726dce5e8edc04333f5f3f405605b93b223a5a35e2ad8b743706",
+      "bytes": 4496,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/outputs/排盘可视化示例/chart.html",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/outputs/排盘可视化示例/chart.html",
+      "sha256": "59279ee4a093251b45930b9a69db4fc2617729d85c903a2eedebd0e747ca5fe5",
+      "bytes": 55877,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/resources/chaohua-a.ttf",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/resources/chaohua-a.ttf",
+      "sha256": "791b0aabcfca0517ffc0f9d39bfa0b7a7209b225b9d5061c668760a3a79e7c24",
+      "bytes": 39889920,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/resources/font-license-record.json",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/resources/font-license-record.json",
+      "sha256": "7576016d1e19d570bc7e2b9fcfb6d9aa09db4e91fe22c6f9d51b26fba555d14e",
+      "bytes": 893,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/resources/huiwen-mincho.ttf",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/resources/huiwen-mincho.ttf",
+      "sha256": "e0aecfc380b80842eb3498526fa5cb402caf376eece52567f750948e46a545d3",
+      "bytes": 44444460,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/agent-query-results.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/agent-query-results.js",
+      "sha256": "c07bbd49436570c06d188533106c08be44b5d2dbf9aa437ce3d22878bcbcbf3e",
+      "bytes": 4775,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/archive-store.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/archive-store.js",
+      "sha256": "b5b9f7f460cd3c8f80b561866a36cbd288bca6e741fe89a2771d105f4407ff9c",
+      "bytes": 9799,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/aspect-controls.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/aspect-controls.js",
+      "sha256": "3c2e4c197cb02497f14206ee45596d3815e04fb9266daf372ef68185958eaf09",
+      "bytes": 719,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/aspect-diagram.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/aspect-diagram.js",
+      "sha256": "d23d71372cdd1bbd8a5b57f2a38c23fcdb457c9bbf2b5f246314b1e22c6977ae",
+      "bytes": 12531,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/build_asteroids.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/build_asteroids.py",
+      "sha256": "8a709852519d6401a404820e629bfb3457ffdfcedfbd5fd1ccc7c6a980bfbedb",
+      "bytes": 469,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/build_chart_variants.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/build_chart_variants.py",
+      "sha256": "20709760d602423d96c38e7086bd840ca2fa75b82ffc96e543acbfdda8a1dac5",
+      "bytes": 1471,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/build_print_study.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/build_print_study.js",
+      "sha256": "681f5dcdce3508b6bc0bcd3f5f4b645a62508959e7d60948a2d3b1f485d3edb0",
+      "bytes": 20401,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/build_virtual_points.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/build_virtual_points.py",
+      "sha256": "be7a35194b4108136158409c340bf1b48f80d5acceba486c3b649b5e94ca5cdb",
+      "bytes": 456,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/case-archive-v2.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/case-archive-v2.js",
+      "sha256": "902cf83797fd0ce53d052f34db553388f3ad47fc19c6425a825c55b7d14656cb",
+      "bytes": 15999,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/case-archive.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/case-archive.js",
+      "sha256": "9dbf901e046ed2af602516d4e4d6dc716065106e6088eb948d137f5c647b716c",
+      "bytes": 7986,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/case-remarks.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/case-remarks.js",
+      "sha256": "2066b3a720e59a8df0e205f251f9c47710853fb907dbd6caaa204266e905b537",
+      "bytes": 5273,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/assets/chart-geometry.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/assets/chart-geometry.js",
+      "sha256": "03b88d01053b59853646d81aff05ef59cd5460dfd1624d17475d39bb8ea0b630",
+      "bytes": 10573,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/assets/chart-view.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/assets/chart-view.js",
+      "sha256": "ac0e3c56e265a69d4aebf401c4a637115ca76e9b97282526fd5b8d32699e5544",
+      "bytes": 3530,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/assets/chart-wheel.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/assets/chart-wheel.js",
+      "sha256": "d73c5cbf618932052f612078aa825111df8e043ea00a57da1276ecffdfe39277",
+      "bytes": 18225,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/assets/page.css",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/assets/page.css",
+      "sha256": "4a1ce0a06e0f0422d7a3e13b89786139dabf0c8650141c337095c59c1430a55e",
+      "bytes": 2872,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/assets/page.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/assets/page.js",
+      "sha256": "e5f7d39059bad6ae20d013a5e835647dfc1e4bfea0c0fef997c81d5b702bf2f9",
+      "bytes": 2660,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/assets/wheel.css",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/assets/wheel.css",
+      "sha256": "01798ec34c74726dce5e8edc04333f5f3f405605b93b223a5a35e2ad8b743706",
+      "bytes": 4496,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/scripts/render_chart.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/scripts/render_chart.py",
+      "sha256": "74ac069d4c1d47822eb0c577d1feb67370dd23aa4699b4d50a749cdfde53a4a6",
+      "bytes": 4217,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/chart-annotations.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/chart-annotations.js",
+      "sha256": "c8f795b3d6b2dd1e70f5f39d219855e2e72eed33ef0b6b57336b77e04da3e99a",
+      "bytes": 16923,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/chart-axis-gaps.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/chart-axis-gaps.js",
+      "sha256": "f1234151316676182da6ddff717559758193fe198d2e9429ca75ac446a0a1dc8",
+      "bytes": 2373,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/chart-interactions.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/chart-interactions.js",
+      "sha256": "65d70f707f03b89b68b503a99ff8373e5943ea450e39bfe8be5075e5f0f1d32f",
+      "bytes": 5117,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/chart-navigation.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/chart-navigation.js",
+      "sha256": "7384652ec479f42dddcf5ebd6fd3192d6de7127c5d4e1167591ea3434d5306b7",
+      "bytes": 4593,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/chart-switches.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/chart-switches.js",
+      "sha256": "b20e2c30f45c1872858d20d1005c0c95ab48198b5a5104eeddabdd5000c1a896",
+      "bytes": 9103,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cloud-backup.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cloud-backup.js",
+      "sha256": "d14d1c5c30a58dd4c00f98e0be1198e4f422290593a075e6fd34b24ec571a9fa",
+      "bytes": 23494,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/custom-lots.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/custom-lots.js",
+      "sha256": "5f820cabf3333a4b11823e1231007296ab13804f6e474ccf3a414eeadd771b32",
+      "bytes": 10190,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/decennials-ui.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/decennials-ui.js",
+      "sha256": "68758df3610bbb290b00e414789be8cddf03cba539b5370f483bfbd74ef09b87",
+      "bytes": 8957,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/detail-panel.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/detail-panel.js",
+      "sha256": "ffe79d28fbc401b7b22087f5d15ab655345b41f43e609d63a659ed7c948a4f78",
+      "bytes": 5803,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/editor-autosave.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/editor-autosave.js",
+      "sha256": "882c414b68e1fd0f475262e911464e620f75241fe1908b9c2dd36279931e7405",
+      "bytes": 2234,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/ephemeris/seas_18.se1",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/ephemeris/seas_18.se1",
+      "sha256": "a2cd8fc33807c78ca9a700c91c2e042258b12fc4796519e00781440b5ad8b2e2",
+      "bytes": 223004,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/ephemeris/source.json",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/ephemeris/source.json",
+      "sha256": "15971ef8dfee08224381d4b10eb08588d7a9128307c76eb6daecbcc7e32bf575",
+      "bytes": 197,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/fit-study-title.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/fit-study-title.js",
+      "sha256": "255225321d4cbe541d186815d6309791bea33189281c5f673caa3a80c9ea65f3",
+      "bytes": 1152,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/html2canvas.min.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/html2canvas.min.js",
+      "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb",
+      "bytes": 198689,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/library-export-store.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/library-export-store.js",
+      "sha256": "bf468baed8997dab426301a89e6f8f2922b3985c7aaf9bb447afde716c36795a",
+      "bytes": 869,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/library-store.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/library-store.js",
+      "sha256": "ed9b8300bd10e296c6f07b7a7de51a13b66903abb9c2620f893ac158a19bdaa6",
+      "bytes": 19719,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/license-footer-layout.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/license-footer-layout.js",
+      "sha256": "cabb3f397d2e2b88ac0ba516ed926ddbec7458f8aecbb491e6d14ef26de1698d",
+      "bytes": 509,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/license-footer.css",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/license-footer.css",
+      "sha256": "cc311d7b732023530248464a8aa6c2faaa64070f6a0667c15ac1d232789f7060",
+      "bytes": 4012,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/license-footer.html",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/license-footer.html",
+      "sha256": "9fbfad6f7f8c83d03359bfababc7f219fdbdc2fccdc1409acc4ad3ae2246c4b5",
+      "bytes": 50834,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/method-defaults.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/method-defaults.js",
+      "sha256": "e75e4adb6ed718093630658513637ec47ea3e8ef627d8911984c3000ea357cd5",
+      "bytes": 3921,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/note-layers.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/note-layers.js",
+      "sha256": "c54054c271fb11f834a78052b48dc438cf9f6ebf081a53ed5040ae2e7b28f922",
+      "bytes": 19447,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/object-layer-notes.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/object-layer-notes.js",
+      "sha256": "5ff2d41a472e3909cb502c808bca7c346886f840c4999b2550b2ed67028eb542",
+      "bytes": 19820,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/page-export.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/page-export.js",
+      "sha256": "f7dee49156a9d5766255db4542bcf736905f54a7186f72cd2cba1795bfef2d74",
+      "bytes": 30192,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/personal-tradition.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/personal-tradition.js",
+      "sha256": "28447710edabe50fb0f19c1427e98de1d2dfaf396f16ebf0023cde2ab90f9023",
+      "bytes": 4752,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/point-aspects.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/point-aspects.js",
+      "sha256": "ebe18bda47dde078be13823dc71be51607369a046ec31ae9e4b37a1ffa7fff1e",
+      "bytes": 2279,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/point-notes.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/point-notes.js",
+      "sha256": "973a028ad667310e9339395e73494a4b2a8e86aac3fad1a3b5e1d64524b9e932",
+      "bytes": 2206,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/print-study/chart-geometry.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/print-study/chart-geometry.js",
+      "sha256": "03b88d01053b59853646d81aff05ef59cd5460dfd1624d17475d39bb8ea0b630",
+      "bytes": 10573,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/print-study/chart-wheel.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/print-study/chart-wheel.js",
+      "sha256": "40cfaf78734d86fd1254000244a1b651bfcc3b1c56500bf8e81c79bb9087f55c",
+      "bytes": 23318,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/print-study/font-license-record.json",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/print-study/font-license-record.json",
+      "sha256": "7576016d1e19d570bc7e2b9fcfb6d9aa09db4e91fe22c6f9d51b26fba555d14e",
+      "bytes": 893,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/print-study.css",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/print-study.css",
+      "sha256": "cadfe15118b1328269856b1584480987a8c2576383110fa9d1737852b0fe919d",
+      "bytes": 18348,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/research-cards.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/research-cards.js",
+      "sha256": "bfdf4922a6b40207bffc52e030304ba78651b38ed71aacce0cdaac49c42cd633",
+      "bytes": 3618,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/return-ui.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/return-ui.js",
+      "sha256": "75291d00f97a63e2f74810643af73e5ef37fb2c5aaa5784792e95d7f99ae6b22",
+      "bytes": 8810,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/settings-panel.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/settings-panel.js",
+      "sha256": "bb8bf45aa868c54c4d3a0d3300d47d8c992f2a32f7428d38bcc9ae7f7ed513ca",
+      "bytes": 32093,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/study-view.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/study-view.js",
+      "sha256": "f932901b9f7de7bf540abe548a404da90b59aedd04cc4fedee9cad9db07205aa",
+      "bytes": 10950,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/time-adjust.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/time-adjust.js",
+      "sha256": "11e7ae1850b7848887552273bb060e2dee0220c20dd7f31dbbef2e2d67178fae",
+      "bytes": 9039,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/time-lord-ui.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/time-lord-ui.js",
+      "sha256": "6906dd56997e52d94eb93c47a7efeb87a0d7d5c5a780e98f549d12811fbc07fa",
+      "bytes": 8640,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/transit-search.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/transit-search.js",
+      "sha256": "d4f55ceace71ce4bddc415574482d801f4205919799e7984e6e4d9b6a7a9782e",
+      "bytes": 4167,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/virtual-settings.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/virtual-settings.js",
+      "sha256": "99b3969a5ff621569111919d2329e2e542175534e7cf469e49ff43fc8daf72fd",
+      "bytes": 5017,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/visual-refinements.css",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/visual-refinements.css",
+      "sha256": "020c0a6f8c9d771dc60884db40efb1efb1d144d8e0a72058947ceb2f43f252d9",
+      "bytes": 122234,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/wheel-zoom.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/wheel-zoom.js",
+      "sha256": "21b516114895dc64ef9189ae020a53694f0cf8bf2e8b62d355d565fc357ef7c6",
+      "bytes": 5177,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/workbench-layout.css",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/workbench-layout.css",
+      "sha256": "191ec94a15aacc737ba68d177d30c5af61cff48d671a4e1665079ff1e916b885",
+      "bytes": 17684,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/workbench-layout.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/workbench-layout.js",
+      "sha256": "e7e92e128fd3ed6283616ca4cc246d53a70b1dd66e46df559a7b70a14f018bae",
+      "bytes": 5415,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/references/built-in-lots.md",
+      "source": "skills/cgm-hellenistic-chart-visualization/references/built-in-lots.md",
+      "sha256": "6c92e7bac589d4257929bd1c74d051537c06460f9796ba4eb6bcda57e8b8d29b",
+      "bytes": 7829,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/references/case-library-v1.md",
+      "source": "skills/cgm-hellenistic-chart-visualization/references/case-library-v1.md",
+      "sha256": "deaedb4028240f59b4ec1370cb8cc088c1d8198f8f1484b39759084f30e92f0a",
+      "bytes": 17406,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/references/case-remarks.md",
+      "source": "skills/cgm-hellenistic-chart-visualization/references/case-remarks.md",
+      "sha256": "7f095c8e11456bd29df6e6459eb2fd588a17fcc98dd8ad4651352b65b3d4eba6",
+      "bytes": 1166,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/references/cloud-backup.md",
+      "source": "skills/cgm-hellenistic-chart-visualization/references/cloud-backup.md",
+      "sha256": "b9700ac21c4c48f152fe1906d2763132dd5441ed434aaf436424cf629e9639b4",
+      "bytes": 6576,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/references/cross-project.md",
+      "source": "skills/cgm-hellenistic-chart-visualization/references/cross-project.md",
+      "sha256": "66d527811cd65c557c9419a5199249c4a2e393209ae010651050977eeb91a525",
+      "bytes": 2094,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/references/portable-reading.md",
+      "source": "skills/cgm-hellenistic-chart-visualization/references/portable-reading.md",
+      "sha256": "83099d7098e45559987f5ed71ba3e086679d1d1cc3e398502d01a63b70f96177",
+      "bytes": 2213,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/references/reuse-notes.md",
+      "source": "skills/cgm-hellenistic-chart-visualization/references/reuse-notes.md",
+      "sha256": "399e52c2738b762c30b2e41f33d8ba982912a0f0dbb00a28c2d79aa520fe1763",
+      "bytes": 2047,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/references/source-snapshot.json",
+      "source": "skills/cgm-hellenistic-chart-visualization/references/source-snapshot.json",
+      "sha256": "03b9f4a343354e0e430a5bb3578c8328ef0d8bc0e2dbc9ea9c874c949a054080",
+      "bytes": 637,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/references/storage-and-profile.md",
+      "source": "skills/cgm-hellenistic-chart-visualization/references/storage-and-profile.md",
+      "sha256": "19acdef4303c7fb55732585b180daf784732d8d6420f8db2e964d8a2308d21ca",
+      "bytes": 4303,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/references/transit-agent-query-v1.md",
+      "source": "skills/cgm-hellenistic-chart-visualization/references/transit-agent-query-v1.md",
+      "sha256": "f4c639c2612536ac853139877d3c75fb5b7700f888bcd9c8938ba6349682e525",
+      "bytes": 3333,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/references/working-page-details.md",
+      "source": "skills/cgm-hellenistic-chart-visualization/references/working-page-details.md",
+      "sha256": "a92a6f6f80a61838a24582bb20184ebe139975233a11fe4fff46715651a483b6",
+      "bytes": 35813,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/archive_store.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/archive_store.py",
+      "sha256": "0f311cf1008572a385836696765a9146a12964f2d66d48d1b0cf823fd1aed604",
+      "bytes": 5048,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/attach_return_query.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/attach_return_query.py",
+      "sha256": "a65435e8357ecc2b0ea6a33a272e6a4656da5ed01654e35143def0f8389c2faa",
+      "bytes": 2550,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/backup_crypto.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/backup_crypto.py",
+      "sha256": "0efb9ba19bce74cec807bae8cdca0f35087caae070aa6ec38b4e7919b0e78e4d",
+      "bytes": 9400,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/backup_github.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/backup_github.py",
+      "sha256": "0a9cfe08d0b58e3a3637e889464884ed3d466a1cd00491d30375b270b97ddcfa",
+      "bytes": 10725,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/backup_schedule.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/backup_schedule.py",
+      "sha256": "d0b2b2a8baf97d1b39df8f680bce42c75e5c10d010823102854d0ff15cdc9827",
+      "bytes": 10449,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/cache_budget.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/cache_budget.py",
+      "sha256": "725937f04b152dd025355fb0621d052005d36b6c84a6d5fed01611695f2873a7",
+      "bytes": 441,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/case-profile.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/case-profile.py",
+      "sha256": "de71c9d856b1a1524139ccffb0b6100faae71270b6031dd0e343fc518717836b",
+      "bytes": 11200,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/case_creation.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/case_creation.py",
+      "sha256": "ecb0ea089c3d147f5bfaa7321cab78546fd5982f42a2f10f6b1f6efcd55d6c2f",
+      "bytes": 2846,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/case_library.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/case_library.py",
+      "sha256": "9575fe93b9c7929e421bf8d12dc56c6710358b635ba297b85598cb606787111e",
+      "bytes": 30707,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/case_remarks.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/case_remarks.py",
+      "sha256": "759e71bf2d2e5dae9d26a661673d31bbace8c023864767e48d1b3bac3df295c5",
+      "bytes": 3439,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/chart_navigation.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/chart_navigation.py",
+      "sha256": "63628bb802678ae66d98aada9d17d351d602d20d4742ce3b58e95a3116da3f76",
+      "bytes": 1392,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/check_location_label.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/check_location_label.js",
+      "sha256": "a8ab41d8b5aa65802616cdfa1d9f113d9f34a92ccc0c28b0c61e43533194f1c1",
+      "bytes": 864,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/cloud_backup.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/cloud_backup.py",
+      "sha256": "f675417578b8d845dedd077815da1e80f6ece89870e77651bb1a9e7c85e05600",
+      "bytes": 46557,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/complete_case.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/complete_case.py",
+      "sha256": "b0cbf566e87dc8d2dda1ed4818f70faf7288bab6e17f2c2c3c3b049030994662",
+      "bytes": 9785,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/export-font.cjs",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/export-font.cjs",
+      "sha256": "b012a187724f94932a3ec20fde277a4a51a6f352df509245f657d83677a3a0d8",
+      "bytes": 3420,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/library_cli.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/library_cli.py",
+      "sha256": "bcc28b0d85937a2ead5bfffa190309f8e092348013c9726bf5cd5b5f9669670c",
+      "bytes": 15383,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/library_server.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/library_server.py",
+      "sha256": "c82e16894c02dd4a7771a8bbc787f200c0e353ac26411db30302eb620d2e5332",
+      "bytes": 10105,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/license_footer.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/license_footer.py",
+      "sha256": "c7cc0925775428a077d1d713e537124b37087f86b054094cc3d24556175b2cad",
+      "bytes": 1202,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/local_installation.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/local_installation.py",
+      "sha256": "d8dae2de602d169a9a612f888ed8a7f3f0361dba8716993ae101fd18704a7d15",
+      "bytes": 2627,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/object_refs.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/object_refs.py",
+      "sha256": "48ca3e51755ff3c4c7a29d2d2fc532390f1dc3779b340afaa81470e25fa89f50",
+      "bytes": 9271,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/portable-fonts.cjs",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/portable-fonts.cjs",
+      "sha256": "b7a84a927fdf77470b7b96189a8855158c0d64826d897241ce119dfae87625e0",
+      "bytes": 182,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/portable_reading.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/portable_reading.py",
+      "sha256": "47b582fc2d8ba5ee504b878271d4580a4384055dc336c59b7e870e7bcb5372af",
+      "bytes": 4072,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/record_validation.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/record_validation.py",
+      "sha256": "1ea91026502ba7bbb591b1c51164efb5ed536eb8e40fd7ce356413768190ae78",
+      "bytes": 5581,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/refresh_decennials_page.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/refresh_decennials_page.py",
+      "sha256": "50b677abb71d133e0420c554b9b11de6a5cf9ea7d36fc4537e322a240b1ef529",
+      "bytes": 4143,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/refresh_note_workflow.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/refresh_note_workflow.py",
+      "sha256": "9502e350a2b6c07cd4864d96e7e22df8dd97e2a32dcbc6db6dcc62a2052088ab",
+      "bytes": 1391,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/render_chart.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/render_chart.py",
+      "sha256": "b009f0b8ab13ea9c79c0ac0b89bd5e0397d5b76a75c3d87b72d1578cffe1529a",
+      "bytes": 4247,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/render_decennials_chart.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/render_decennials_chart.py",
+      "sha256": "3f5dac8692932a923446005dc822d18e70f372c444d637099111644aae019eac",
+      "bytes": 5637,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/render_document.js",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/render_document.js",
+      "sha256": "960dd6c13e95e2d3cd179764940e7cabd7221a64850e530969b314718d3c1605",
+      "bytes": 4012,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/render_return_chart.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/render_return_chart.py",
+      "sha256": "f52efa74420a22d0261d32eb4d8ca5cc655ceca39e805bc28009df126fc8c5ad",
+      "bytes": 9469,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/render_time_lord_chart.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/render_time_lord_chart.py",
+      "sha256": "ff5a0004f321501efba4fef657c0259c3e61a319d47cedac65e115c4a7495796",
+      "bytes": 2498,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/render_working_chart.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/render_working_chart.py",
+      "sha256": "f9dfde8d145826050baf710a847148fcad1964771ed77162a5952dae0814228e",
+      "bytes": 11607,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/requirements-backup.txt",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/requirements-backup.txt",
+      "sha256": "241368588dd69250a5bc5356825748f26f4d1fca93a0138745d503ed84e28904",
+      "bytes": 58,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/resource_store.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/resource_store.py",
+      "sha256": "9a80be13bf316f652d1410941753999e308e013cc7b7635b43af6e84dea9b9f6",
+      "bytes": 1729,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/run_transit_agent_query.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/run_transit_agent_query.py",
+      "sha256": "82e2322afed388c96a5e7a5cd16345b4528b9f0112bfe87eafd303bb493d46b0",
+      "bytes": 5284,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/serve_chart.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/serve_chart.py",
+      "sha256": "23fa0491c14fc7f06f965c0d17e9c2b3bb54fd461811a7547b9028accf5ed328",
+      "bytes": 1864,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/serve_working_chart.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/serve_working_chart.py",
+      "sha256": "deae3198f900061dd229668e783563cabe52b519de004b8514dae3f07913c003",
+      "bytes": 1791,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/start_time_adjust_server.ps1",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/start_time_adjust_server.ps1",
+      "sha256": "8a972ab0735a13e57e49f0025bfb7492d8198883a644966c7ecfe7c7c422f973",
+      "bytes": 1136,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/time_adjust_server.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/time_adjust_server.py",
+      "sha256": "98613bb382cf325abbd65bd7594b600ccac89c3208ba723acce1c605332f2a13",
+      "bytes": 7892,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/scripts/transit_search.py",
+      "source": "skills/cgm-hellenistic-chart-visualization/scripts/transit_search.py",
+      "sha256": "d3453a1411daa46868fb6dcfdc01ad2ef39d42e299309c95fae71e838f0f40e9",
+      "bytes": 1465,
+      "transform": "none"
+    },
+    {
+      "file": "skills/cgm-hellenistic-chart-visualization/SKILL.md",
+      "source": "skills/cgm-hellenistic-chart-visualization/SKILL.md",
+      "sha256": "261ee062e0acd2a5fd166c5a542e782b543d2722963e06d49c453f3896cf73b6",
+      "bytes": 10792,
+      "transform": "none"
+    },
+    {
+      "file": "tests/case-remarks.py",
+      "source": "tests/case-remarks.py",
+      "sha256": "eacd2e9bdf8a7652357bb36c6c2c4d5b3bf7d7ec8e23d606badb565aec7743e0",
+      "bytes": 2100,
+      "transform": "none"
+    },
+    {
+      "file": "tests/local-installation.py",
+      "source": "tests/local-installation.py",
+      "sha256": "50b878d62b567021fa0be5b3e2b6ca78951d988fb0038623ade41790007a0a50",
+      "bytes": 2748,
+      "transform": "none"
+    },
+    {
+      "file": "tests/cloud-backup.py",
+      "source": "tests/cloud-backup.py",
+      "sha256": "7d6293dc1ea9edf523fd2f07d7807da8855fd794f34e76b689429a55286443ea",
+      "bytes": 29407,
+      "transform": "none"
+    },
+    {
+      "file": "tests/cloud-backup-transport.py",
+      "source": "tests/cloud-backup-transport.py",
+      "sha256": "9971c622b28bd0e556e7b85739a7d1ba2f8ed1e91654b0a154f351d80338761d",
+      "bytes": 5848,
+      "transform": "none"
+    },
+    {
+      "file": ".gitattributes",
+      "source": "release-metadata/common/.gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+      "bytes": 9,
+      "transform": "none"
+    },
+    {
+      "file": ".gitignore",
+      "source": "release-metadata/common/.gitignore",
+      "sha256": "9bdba4efe103da728fcbd9c76bfe7e3b224ef520fec1412251ff87d8a5306cbb",
+      "bytes": 174,
+      "transform": "none"
+    },
+    {
+      "file": "ATTRIBUTION.md",
+      "source": "release-metadata/common/ATTRIBUTION.md",
+      "sha256": "bdb9a886a7feda838ffbadd34ea632bcbe5a5612374cafbb07bfbe72b6c5a4c7",
+      "bytes": 1039,
+      "transform": "none"
+    },
+    {
+      "file": "LICENSE",
+      "source": "release-metadata/common/LICENSE",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523,
+      "transform": "none"
+    },
+    {
+      "file": "LICENSES/cryptography-Apache-2.0.txt",
+      "source": "release-metadata/common/LICENSES/cryptography-Apache-2.0.txt",
+      "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe",
+      "bytes": 11360,
+      "transform": "none"
+    },
+    {
+      "file": "LICENSES/cryptography-BSD-3-Clause.txt",
+      "source": "release-metadata/common/LICENSES/cryptography-BSD-3-Clause.txt",
+      "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb",
+      "bytes": 1532,
+      "transform": "none"
+    },
+    {
+      "file": "LICENSES/cryptography.txt",
+      "source": "release-metadata/common/LICENSES/cryptography.txt",
+      "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb",
+      "bytes": 197,
+      "transform": "none"
+    },
+    {
+      "file": "LICENSES/Font-Chaohua.txt",
+      "source": "release-metadata/common/LICENSES/Font-Chaohua.txt",
+      "sha256": "2b25325352aaa8f5725aaf39365e8c8e08d18f703d62a9fd989f01936bbbe20a",
+      "bytes": 1506,
+      "transform": "none"
+    },
+    {
+      "file": "LICENSES/Font-Huiwen.txt",
+      "source": "release-metadata/common/LICENSES/Font-Huiwen.txt",
+      "sha256": "a5c015de49c99316e866c185952a61e330bd8fc8bc4842469dafc3713747c521",
+      "bytes": 1436,
+      "transform": "none"
+    },
+    {
+      "file": "LICENSES/huiwen-series-authorization.jpg",
+      "source": "release-metadata/common/LICENSES/huiwen-series-authorization.jpg",
+      "sha256": "215cd63cf4b33c0c7b391608cfb39ca1736b0ceb2d9c9dedc85612b20532525c",
+      "bytes": 62317,
+      "transform": "none"
+    },
+    {
+      "file": "LICENSES/keyring-MIT.txt",
+      "source": "release-metadata/common/LICENSES/keyring-MIT.txt",
+      "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+      "bytes": 1076,
+      "transform": "none"
+    },
+    {
+      "file": "LICENSES/Swiss-Ephemeris.txt",
+      "source": "release-metadata/common/LICENSES/Swiss-Ephemeris.txt",
+      "sha256": "b6345743292c516d07799dfad46f1a641e5270da2160cc4d6bd54594d6faa991",
+      "bytes": 2371,
+      "transform": "none"
+    },
+    {
+      "file": "NOTICE",
+      "source": "release-metadata/common/NOTICE",
+      "sha256": "37e1bfa968eae43a4c74a719c7b6ff70c5f4e8dd8cacfd841219272c5986c238",
+      "bytes": 1166,
+      "transform": "none"
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "source": "release-metadata/common/THIRD_PARTY_NOTICES.md",
+      "sha256": "4bc809d03f65c5796cad613de22487a2fdeaa3096e53474b180d023a458776f0",
+      "bytes": 4779,
+      "transform": "none"
+    },
+    {
+      "file": "verify_files.py",
+      "source": "release-metadata/common/verify_files.py",
+      "sha256": "d800564bf0842b3b7106d26da8fd81152866b4206274f19b3f9d12aa67611972",
+      "bytes": 1070,
+      "transform": "none"
+    },
+    {
+      "file": "examples/input.json",
+      "source": "release-metadata/astrology/examples/input.json",
+      "sha256": "55463fd9c5921a460be310128d188c976f6eed3436cb5db5a0b38ee5a2f101db",
+      "bytes": 212,
+      "transform": "none"
+    },
+    {
+      "file": "INSTALL.md",
+      "source": "release-metadata/astrology/INSTALL.md",
+      "sha256": "e4816402b2606cec90ecc7da1810c5ebf0c9ee070dc4bc9683f44a9a164728f7",
+      "bytes": 7614,
+      "transform": "none"
+    },
+    {
+      "file": "LICENSES/html2canvas-MIT.txt",
+      "source": "release-metadata/astrology/LICENSES/html2canvas-MIT.txt",
+      "sha256": "86200ce4e92d9a22c41c8647a55f7a5fddff304ff89b4d36ecc699ed8c123d2c",
+      "bytes": 1061,
+      "transform": "none"
+    },
+    {
+      "file": "README.md",
+      "source": "release-metadata/astrology/README.md",
+      "sha256": "31dc67d1f7443f412fcd82bb390e2cfc8b758f4d4040ad8b04a71fe05ed955bf",
+      "bytes": 4483,
+      "transform": "none"
+    },
+    {
+      "file": "TESTING.md",
+      "source": "release-metadata/astrology/TESTING.md",
+      "sha256": "9bae9967c0bc7f1dfe3570dee15a387a27e0d67ddf45fa7df2a603d92946791a",
+      "bytes": 9370,
+      "transform": "none"
+    }
+  ],
+  "excluded_skill_files": [
+    "skills/cgm-calculate-astrology-chart/scripts/__pycache__/bootstrap_runtime.cpython-312.pyc",
+    "skills/cgm-calculate-astrology-chart/scripts/__pycache__/calculate_chart.cpython-312.pyc",
+    "skills/cgm-calculate-astrology-chart/scripts/__pycache__/calculate_decennials.cpython-312.pyc",
+    "skills/cgm-calculate-astrology-chart/scripts/__pycache__/calculate_display_snapshots.cpython-312.pyc",
+    "skills/cgm-calculate-astrology-chart/scripts/__pycache__/calculate_return_query.cpython-312.pyc",
+    "skills/cgm-calculate-astrology-chart/scripts/__pycache__/calculate_time_lords.cpython-312.pyc",
+    "skills/cgm-calculate-astrology-chart/scripts/__pycache__/calculate_transit_search.cpython-312.pyc",
+    "skills/cgm-calculate-astrology-chart/scripts/__pycache__/civil_age.cpython-312.pyc",
+    "skills/cgm-calculate-astrology-chart/scripts/__pycache__/local_installation.cpython-312.pyc",
+    "skills/cgm-calculate-astrology-chart/scripts/__pycache__/method_settings.cpython-312.pyc",
+    "skills/cgm-calculate-astrology-chart/scripts/__pycache__/validate_chart_output.cpython-312.pyc",
+    "skills/cgm-calculate-astrology-chart/tests/__pycache__/test_validate_chart_output.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/agents/openai.yaml",
+    "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/references/reuse-notes.md",
+    "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/references/source-snapshot.json",
+    "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/scripts/render_document.js",
+    "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/scripts/serve_chart.py",
+    "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/cgm-hellenistic-chart-visualization/SKILL.md",
+    "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/print-study/narrow.html",
+    "skills/cgm-hellenistic-chart-visualization/assets/working-page/work/split-axis-labels.txt",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/archive_store.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/backup_crypto.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/backup_github.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/backup_schedule.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/cache_budget.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/calculate_return_query.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/case-profile.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/case_creation.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/case_library.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/case_remarks.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/case_remarks.cpython-313.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/chart_navigation.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/cloud_backup.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/complete_case.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/library_cli.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/library_server.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/license_footer.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/local_installation.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/object_refs.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/portable_reading.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/record_validation.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/refresh_decennials_page.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/render_return_chart.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/render_working_chart.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/run_transit_agent_query.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/time_adjust_server.cpython-312.pyc",
+    "skills/cgm-hellenistic-chart-visualization/scripts/__pycache__/transit_search.cpython-312.pyc"
+  ]
+}
